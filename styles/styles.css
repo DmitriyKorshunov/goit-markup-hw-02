@@ -22,6 +22,10 @@ body {
 .logo {
   color: #212121;
 }
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
 .logo > .logo-web {
   color: #2196f3;
 }
@@ -62,6 +66,10 @@ body {
 }
 .footer-logo {
   color: #ffffff;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #2196f3;
 }
 .footer-web {
   color: #2196f3;
