@@ -7,7 +7,16 @@
 /* фон наша команда #F5F4FA */
 /* фон наши преимущества и чем занимаемся #E5E5E5 */
 /* цвет эладреса и телефона подвала rgba(255, 255, 255, 0.6) */
-
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+  --background-hero-footer-color: #2f303a;
+  --background-page-color: #ffffff;
+  --background-ourteam-color: #f5f4fa;
+  --background-benefits-color: #e5e5e5;
+}
 body {
   background-color: #e5e5e5;
   color: #757575;
