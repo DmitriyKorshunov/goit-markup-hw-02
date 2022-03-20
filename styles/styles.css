@@ -2,10 +2,10 @@
 /* вторичный цвет текста #212121 */
 /* основной цвет текста #757575 */
 /* фон героя и подвала #2F303A */
-/* основной цвет фона страницы #FFFFFF */
+/* основной цвет фона страницы #E5E5E5 */
 /* акцент #2196F3 */
 /* фон наша команда #F5F4FA */
-/* фон наши преимущества и чем занимаемся #E5E5E5 */
+/* фон наши шапка  #FFFFFF */
 /* цвет эладреса и телефона подвала rgba(255, 255, 255, 0.6) */
 :root {
   --primary-text-color: #757575;
@@ -13,97 +13,97 @@
   --accent-color: #2196f3;
   --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
   --background-hero-footer-color: #2f303a;
-  --background-page-color: #ffffff;
+  --background-page-color: #e5e5e5;
   --background-ourteam-color: #f5f4fa;
-  --background-benefits-color: #e5e5e5;
+  --background-header-color: #ffffff;
 }
 body {
-  background-color: #e5e5e5;
-  color: #757575;
+  background-color: var(--background-page-color);
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
 .header {
-  background-color: #ffffff;
+  background-color: var(--background-header-color);
 }
 
 .logo {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .logo:hover,
 .logo:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo > .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* site nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* auth-nav */
 .auth-nav .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--background-header-color);
 }
 .hero-btn {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--background-header-color);
 }
 /* section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 /* team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-ourteam-color);
 }
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer-color);
 }
 
 .footer-logo {
-  color: #ffffff;
+  color: var(--background-header-color);
 }
 .footer-logo:hover,
 .footer-logo:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-adress {
-  color: #ffffff;
+  color: var(--background-header-color);
 }
 .footer-mail {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-mail-tel-color);
 }
 .footer-mail:hover,
 .footer-mail:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-mail-tel-color);
 }
 .footer-tel:hover,
 .footer-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
