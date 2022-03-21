@@ -110,3 +110,12 @@ body {
 .footer-tel:focus {
   color: var(--accent-color);
 }
+.button {
+  background-color: var(--background-ourteam-color);
+  color: var(--title-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--background-header-color);
+}
