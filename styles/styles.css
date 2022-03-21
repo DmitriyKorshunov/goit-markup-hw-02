@@ -119,3 +119,23 @@ body {
   background-color: var(--accent-color);
   color: var(--background-header-color);
 }
+.button .button-all {
+  width: 73px;
+  height: 38px;
+}
+.button .button-websaite {
+  width: 128px;
+  height: 38px;
+}
+.button .button-applications {
+  width: 145px;
+  height: 38px;
+}
+.button .button-design {
+  width: 103px;
+  height: 38px;
+}
+.button .button-marketing {
+  width: 130px;
+  height: 38px;
+}
