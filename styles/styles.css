@@ -110,6 +110,9 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+.title-none {
+  display: none;
+}
 .title-three {
   font-weight: 700;
   font-size: 14px;
