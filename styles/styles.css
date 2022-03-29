@@ -183,6 +183,7 @@ body {
 .button {
   background-color: var(--background-ourteam-color);
   color: var(--title-text-color);
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
