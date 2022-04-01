@@ -29,6 +29,7 @@ body {
 }
 .list {
   list-style: none;
+  text-decoration: none;
 }
 .header {
   background-color: var(--background-primary-color);
