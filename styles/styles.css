@@ -128,11 +128,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
 }
-.portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-}
+
 /* team */
 .team {
   background-color: var(--background-ourteam-color);
@@ -193,8 +189,11 @@ body {
   color: var(--title-text-color);
   cursor: pointer;
   font-family: Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 1.7;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
   letter-spacing: 0.03em;
 }
 .button:hover,
@@ -222,4 +221,16 @@ body {
 .button .button-marketing {
   width: 130px;
   height: 38px;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text-portfolio {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.8;
 }
